@@ -16,3 +16,6 @@
     gensim
     imblearn
     jieba
+
+## Others
+    @Author: Kevin

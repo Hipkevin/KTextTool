@@ -17,5 +17,16 @@
     imblearn
     jieba
 
+## 项目结构
+    .
+    │  README.md
+    │
+    └─KText
+        │  analyze.py
+        │  chineseStopWords.txt
+        │  FE.py
+        │  preProcess.py
+        └─  __init__.py
+
 ## Others
     @Author: Kevin

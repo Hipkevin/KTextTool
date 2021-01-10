@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="KTextTool",  # Replace with your own username
-    version="0.0.1",
+    version="0.0.3",
     author="Kevin",
     description="For basic ML and text analyze",
     long_description=long_description,

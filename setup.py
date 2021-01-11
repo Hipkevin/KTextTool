@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="KTextTool",  # Replace with your own username
-    version="0.0.3",
+    version="0.0.4",
     author="Kevin",
-    description="For basic ML and text analyze",
+    description="For basic ML and text analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Hipkevin/KText",

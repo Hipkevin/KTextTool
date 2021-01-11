@@ -27,9 +27,9 @@ def prePro(content):
     return contents_clean
 
 
-def doc2lsi(comments, label=[], dimension=20, flag=False):
+def doc2lsi(content, label=[], dimension=20, flag=False):
     # 得到lsi向量
-    word_list = prePro(comments)
+    word_list = prePro(content)
     dictionary = corpora.Dictionary(word_list)
     new_corpus = [dictionary.doc2bow(text) for text in word_list]
     tfidf = models.TfidfModel(new_corpus)
